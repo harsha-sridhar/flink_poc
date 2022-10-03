@@ -19,7 +19,7 @@ Follow the steps [here](Kafka_setup.md)
 
 ## Download Kafka Connector
 ```shell
-confluent-hub install jcustenborder/kafka-connect-spooldir:2.0.64
+confluent-hub install confluentinc/kafka-connect-s3-source:latest
 ```
 
 ## Start confluent kafka and related components (If not already running)
